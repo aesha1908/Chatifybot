@@ -1,5 +1,6 @@
 import 'package:newchatbot/chat_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:newchatbot/Translator/home.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ChatScreen(),
+      home: Home(),
       debugShowCheckedModeBanner: false,
     );
   }
