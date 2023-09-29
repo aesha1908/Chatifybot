@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
               height: 10,
             ),
             Text(
-              output == null ? "Please Select Language" : output.toString(),
+              output == null ? "null" : output.toString(),
               style: const TextStyle(
                   fontSize: 17,
                   fontStyle: FontStyle.normal,
